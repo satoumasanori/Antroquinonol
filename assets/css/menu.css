@@ -88,7 +88,7 @@
   
 
   #menyAvPaa:checked~#burger>div:nth-child(3) {
-    transform: translateY(12px) rotate(45deg);
+    transform: translateY(11px) rotate(45deg);
   }
   
   #menyAvPaa:checked~#burger>div:nth-child(4) {
@@ -137,6 +137,10 @@
     align-items: end;
     width: 95%;
   }
+ .menu-news a{
+  width: 100% ;
+}
+
   .menu-news-column{
     width: 95%;
     display: flex;
@@ -166,7 +170,9 @@
     padding: 0;
     margin: 0;
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;  
+    background-color: unset ;
+
  }
   .menu-news-arrow{
     width: 18px;
@@ -318,6 +324,9 @@
     #burger span{
       font-size: 14px;
     }
+    #menyAvPaa:checked~#burger>div:nth-child(3) {
+    transform: translateY(12px) rotate(45deg);
+}
   }
   
   @media (max-width: 480px) {
