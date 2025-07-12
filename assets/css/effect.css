@@ -1,0 +1,22 @@
+.sub-item-graph {
+  display: flex;
+}
+
+.effect-item-h2 {
+  background-color: #E5F6FB;
+}
+
+.effect .sub-item-block {
+  margin-top: 40px;
+}
+
+.sub-item-noimage {
+  margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+.sub-item-graph {
+  flex-direction: column;
+  align-items: center;
+}
+}

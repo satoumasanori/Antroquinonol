@@ -1,0 +1,110 @@
+.content {
+  margin-top: 22px;
+  margin-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+
+.concept .item-h2 {
+  margin: 22px 0 10px 0;
+}
+
+.sub-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-item img {
+  display: block;
+  width: 50%;
+  min-width: 295px;
+  margin-bottom: 25px;
+}
+
+.content p span {
+  text-decoration: underline;
+  text-decoration-color: #003366;
+  text-decoration-thickness: 2px;
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1280px) {
+  .sub-section-title {
+    gap: 16px;
+  }
+
+  .english-title {
+    font-size: 16px;
+  }
+
+  .japanese-title {
+    font-size: 23px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding-inline: 100px;
+  }
+  .sub-section-title {
+    padding-top: 85px;
+  }
+}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 768px) {
+  .container {
+    padding-inline: 80px;
+  }
+
+}
+
+@media (max-width: 700px) {
+   .japanese-titles {
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 0;
+    background-color: unset;
+  }
+
+  .japanese-title {
+    padding-inline: 30px;
+    margin-bottom: 7px;
+    background-color: #00A7CB;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-inline: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding-inline: 40px;
+  }
+
+  .sub-item img {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    padding-inline: 20px;
+  }
+
+  .japanese-title {
+    padding-inline: 20px;
+  }
+}

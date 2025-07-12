@@ -1,0 +1,154 @@
+.action-first-p {
+  margin-bottom: 15px;
+}
+
+.action-list {
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.action-item {
+  background-color: #e6f7fb;
+  margin-bottom:15px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.action-item>div {
+  width: 2px;
+  height: 25px;
+  margin-right: 10px;
+  background-color: #00A7CB;
+}
+.action-item-img {
+  width: 6.5px;
+  padding: 20px;
+  color: white;
+  background-color: #00A7CB;
+}
+.action-item-number {
+  font-size: 18px;
+  color: #00bcd4;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+.action-item-text {
+  flex: 1;
+  color: #007f9e;
+}
+
+.action-item-icon {
+  width: 18px;
+  color: #00bcd4;
+  margin-left: 12px;
+}
+.action a{
+  text-decoration: none;
+}
+
+.action .item-h2:first-child {
+  text-align: left;
+  padding-left: 15px;
+}
+.action .sub-item-block .item-h2 {
+  padding-left: 0 !important;
+}
+.action .sub-item {
+  margin-top: 20px;
+}
+
+.sub-item-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #00A7CB;
+}
+
+.sub-item-block p {
+  padding: 0 30px 50px 30px;
+}
+
+.sub-item-photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-item-photos-first {
+  margin-top: 75px;
+}
+.sub-item-photos-last {
+  width: 100%;
+}
+.sub-item-photo {
+  width: 49% !important;
+  min-width: unset !important;
+}
+
+.highlight-text p {
+  color: #00A7CB;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-top: 55px;
+  border-top: 1px solid #00A7CB;
+  padding: 30px 0 ;
+  margin-bottom: 20px;
+}
+
+
+.feature-item {
+  background-color: #00a6c6;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.feature-item p {
+  width: 70%;
+  color: white;
+}
+
+.circle-number {
+  background-color: white;
+  color: #00a6c6;
+  font-weight: bold;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .sub-item-block p {
+  padding: 0 20px 50px 20px;
+}
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 500px) {
+  .sub-item-block p {
+  padding: 0 10px 50px 10px;
+}
+}
+
+@media (max-width: 390px) {
+  
+}

@@ -1,0 +1,56 @@
+.extract .content {
+  margin-top: 22px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+.extract .content .sub-item h2,.action .content .sub-item h2 {
+  width: 100%;
+  padding-block: 7px;
+  margin-bottom: 20px;
+  border: 1px solid #00A7CB;
+}
+
+.extract .sub-item:first-child {
+  margin-bottom: 63px;
+}
+
+.sub-item-title {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 15px;
+  border-bottom: 1px solid #00A7CB;
+}
+
+.sub-item-title p:first-child {
+  width: 40%;
+  color: #00A7CB;
+}
+
+.sub-item-title p:last-child {
+  width: 50%;
+}
+
+.sub-item-title-last-title {
+  padding-top: 15px;
+  color: #00A7CB;
+}
+
+@media (max-width: 768px) {
+  .sub-item-title {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 15px;
+    border-bottom: 1px solid #00A7CB;
+    flex-direction: column;
+  }
+
+  .sub-item-title p:first-child {
+    width: 100%;
+    color: #00A7CB;
+  }
+
+  .sub-item-title p:last-child {
+    width: 100%;
+  }
+}
